@@ -4,14 +4,14 @@
 // const name = prompt("Whats your name?");
 // console.log(typeof(name));
 
-// const answers = [];
+const answers = [];
 
-// answers[0] = prompt('What is your name?', '');
-// answers[1] = prompt('What is your surname?', '');
-// answers[2] = prompt('How old are you?', '');
-// document.write('Senior ' + answers[0] + ', ' + answers[2]);
+answers[0] = prompt('What is your name?', '');
+answers[1] = prompt('What is your surname?', '');
+answers[2] = prompt('How old are you?', '');
+document.write('Senior ' + answers[0] + ', ' + answers[2]);
 
-// console.log(typeof(answers));
+console.log(typeof(answers));
 
 // const Person = prompt("Who are you?");
 // console.log(Person);
