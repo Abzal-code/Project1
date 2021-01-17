@@ -4,14 +4,14 @@
 // const name = prompt("Whats your name?");
 // console.log(typeof(name));
 
-const answers = [];
+// const answers = [];
 
-answers[0] = prompt('What is your name?', '');
-answers[1] = prompt('What is your surname?', '');
-answers[2] = prompt('How old are you?', '');
-document.write('Senior ' + answers[0] + ', ' + answers[2]);
+// answers[0] = prompt('What is your name?', '');
+// answers[1] = prompt('What is your surname?', '');
+// answers[2] = prompt('How old are you?', '');
+// document.write('Senior ' + answers[0] + ', ' + answers[2]);
 
-console.log(typeof(answers));
+// console.log(typeof(answers));
 
 // const Person = prompt("Who are you?");
 // console.log(Person);
@@ -78,7 +78,7 @@ console.log(typeof(answers));
 
 //     console.log(personalMovieDB);
 
-// Условия
+//                                                    Условия
 // if(4 !== 9) {
 //     console.log('ok');
 // } else {
@@ -90,4 +90,36 @@ console.log(typeof(answers));
 // +4       // унарный оператор
 
 // const num = 7;
-// switch (num);
+// switch (num) {
+//     case 9:
+//         console.log('Wrong');
+//         break;
+//     case 10:
+//         console.log('Bad');
+//         break;
+//     case 5:
+//         console.log('excellent');
+//         break;
+//     default:
+//         console.log('no more once');
+//         break;
+// }
+
+//                                                         Циклы  
+
+// let num = 50;
+
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+
+// for (let i=1; i<=15; i++) {
+//     if (i==6) {
+//         continue;
+//     } else if (i==10) {
+//         break;
+//     }
+//     console.log(i);
+// }
